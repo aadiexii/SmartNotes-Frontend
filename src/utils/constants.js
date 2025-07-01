@@ -9,4 +9,4 @@ const logos = [
   new URL("../assets/LogoBanner/logo3.svg", import.meta.url).href,
 ];
 
-export default logos;
+export  {logos};

@@ -1,5 +1,5 @@
 import React from 'react'
-import logos from '../../utils/constants.js'
+import {logos} from '../../utils/constants.js'
 import './logos.css'
 
 const Logos = () => {
