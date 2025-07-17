@@ -3,6 +3,7 @@ import "./App.css"
 
 //fonts
 import '../../fonts/fonts.css'
+import symbol from '../../assets/double-quote.svg'
 
 import Page from "../Page/Page";
 import Header from "../Header/Header";
@@ -26,12 +27,6 @@ const App = () => {
         <Hero/>
       </Header>
       <Logos/>
-      <Testimonial></Testimonial>
-      <Features/>
-      <Testimonial></Testimonial>
-      <Video/>
-      <Testimonial></Testimonial>
-      <Pricing/>
       <Testimonial>
         <h5 className="h5 testimonial_heading">
           The real-time synchronization and AI-powered organization have 
@@ -41,7 +36,14 @@ const App = () => {
           <p className="text-reg testimonial_author">Sarah Jhonson</p>
           <p className="text-reg testimonial_organisation">TechSavv Solutions</p>
         </div>
+        <img className="testimonial_symbol" src={symbol} alt="symbol" />
       </Testimonial>
+      <Features/>
+      <Testimonial></Testimonial>
+      <Video/>
+      <Testimonial></Testimonial>
+      <Pricing/>
+      <Testimonial></Testimonial>
       <FAQ>
         <Accordion></Accordion>
       </FAQ>
